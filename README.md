@@ -2,7 +2,7 @@
 
 ## Data Source:
 This analysis uses publicly available data from the National Health and Nutrition Examination Survey (NHANES) between 2005-2018 (13 years). 
-A representative sample of the cleaned data is provided.
+A representative sample of the cleaned data is provided. The original NHANES datasets can be accessed through the official CDC/NCHS source. 
 
 ## Research Questions:
 - Are there biological, socioeconomic, or lifestyle factors strongly associated with depression in US veterans?
