@@ -18,6 +18,10 @@ This analysis uses publicly available data from the National Health and Nutritio
 - Train-test split and cross-validation
 - Model performance evaluation
 
+## Limitations
+The findings describe associations rather than causal relationships. 
+Results may also be affected by self-reported measures, sample size, and the characteristics of the selected NHANES sample.
+
 ## Key Findings
 Memory, sleep, work capability, and recreational activity levels were among the factors associated with depression in the analyzed sample.
 
