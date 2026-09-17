@@ -1,5 +1,6 @@
 #------------------------------------------------------------
-# EXAMPLE: split data into training and testing data-sets
+# EXAMPLE: split data into training and testing data, 
+#          set up cross-validation
 #------------------------------------------------------------
 
 # check for imbalance
@@ -11,6 +12,15 @@ index = sort(sample(1:nrow(vets_complete), round(0.7*nrow(vets_complete))))
 train <- vets_complete[index,] # 70%
 test <- vets_complete[-index,] # 30%
 
+# set up cross-validation parameters
+train_ctrl = trainControl(
+  method = "repeatedcv",
+  number = 10, # 10-fold
+  classProbs = TRUE, # for classification models
+  summaryFunction = twoClassSummary, # ROC curve, sensitivity, specificity
+  savePredictions = "final"
+)
+
 #------------------------------------------------------------
 # EXAMPLE: build predictive model
 #------------------------------------------------------------
@@ -20,7 +30,7 @@ set.seed(21)
 gb_model <- train(
   dep_response ~.,
   data = train_mod,
-  trControl = train_ctrl, # cross validation set
+  trControl = train_ctrl, # cross validation parameters
   method = "gbm",
   tuneGrid = expand.grid(   # tuning parameters 
     n.trees = c(100,200),
