@@ -20,7 +20,7 @@ set.seed(21)
 gb_model <- train(
   dep_response ~.,
   data = train_mod,
-  trControl = train_ctrl,
+  trControl = train_ctrl, # cross-validation set
   method = "gbm",
   tuneGrid = expand.grid(   # tuning parameters 
     n.trees = c(100,200),
