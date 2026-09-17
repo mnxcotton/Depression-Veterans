@@ -33,15 +33,11 @@ gb_model <- train(
 )
 
 #------------------------------------------------------------
-# EXAMPLE: make predictions from predictive model
+# EXAMPLE: evaluate predictive model
 #------------------------------------------------------------
 
 predictions$gb_prob <- predict(gb_model, test_data, type = "prob")[,"Yes"]
 predictions$gb_class <- predict(gb_model, test_data)
-
-#------------------------------------------------------------
-# EXAMPLE: evaluate predictive models with test data
-#------------------------------------------------------------
 
 roc_gb <- roc(predictions$actual, predictions$gb_prob)
 fpr = 1 - roc_gb$specificities # false positive rate
