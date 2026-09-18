@@ -27,7 +27,6 @@ sleep_plot1
 #------------------------------------------------------------
 # EXAMPLE: inference model selection
 #------------------------------------------------------------
-library(MASS)
 
 log_null <- glm(dep_response ~ 1, data = vets_complete, 
                 family = "binomial"(link = logit))
