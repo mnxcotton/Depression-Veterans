@@ -26,4 +26,5 @@ Among the seven machine-learning models, gradient boosting had the best predicti
 In addition, memory, sleep, work capability, and recreational activity levels were among the factors associated with depression in the selected analyzed sample.
 
 ## Note
-This repository is a portfolio summary of a completed academic project. The full source code and dataset are not included.
+This repository is a portfolio summary of a completed academic project. The full source code and dataset are not included. 
+© 2026 Maria Nguyen. Academic portfolio work. Please do not submit or represent this work as your own.
