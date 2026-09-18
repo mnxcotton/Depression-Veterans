@@ -1,4 +1,30 @@
 #------------------------------------------------------------
+# EXAMPLE: descriptive statistics
+#------------------------------------------------------------
+
+sleep_plot <- vets_complete %>%
+  count(dep_response, trouble_sleeping_history) %>%
+  group_by(dep_response) %>%
+  mutate(prop = n / sum(n))
+
+sleep_plot1 <- ggplot(
+  sleep_plot, aes(x = dep_response, y = prop, fill = trouble_sleeping_history)) + 
+  geom_col(position = "dodge", alpha = 0.5) +
+  geom_text(
+    aes(label = paste0(scales::percent(prop, accuracy = 1), "\n(n = ", n, ")")),
+    position = position_dodge(width = 0.85)) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  xlab("Depression Status (0 = Not Depressed, 1 = Depressed)") +
+  ylab("Proportion") +
+  ggtitle("Trouble Sleeping by Depression Status") +
+  scale_fill_brewer(palette = "Paired") +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold", size = 15),
+        text = element_text(size = 10),
+        legend.position = "top")
+sleep_plot1
+
+#------------------------------------------------------------
 # EXAMPLE: inference model selection
 #------------------------------------------------------------
 library(MASS)
