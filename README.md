@@ -2,7 +2,7 @@
 
 ## Data Source:
 This analysis uses publicly available data from the National Health and Nutrition Examination Survey (NHANES) between 2005-2018 (13 years). 
-A representative sample of the cleaned data is provided. The original NHANES datasets can be accessed through the official CDC/NCHS source. 
+The original NHANES datasets can be accessed through the official CDC/NCHS source. 
 
 ## Research Questions:
 - Are there biological, socioeconomic, or lifestyle factors strongly associated with depression in US veterans?
@@ -22,9 +22,8 @@ The findings describe associations rather than causal relationships.
 Results may be affected by self-reported measures, sample size, and the characteristics of the selected NHANES sample.
 
 ## Key Findings
-Among the seven models, gradient boosting had the best predictive performance. Variables related to memory, sleep, and work are strongly influential. 
+Among the seven machine-learning models, gradient boosting had the best predictive performance. Variables related to memory, sleep, and work are strongly influential. 
 In addition, memory, sleep, work capability, and recreational activity levels were among the factors associated with depression in the selected analyzed sample.
 
-## Code 
-Selected code is withheld to protect the originality of the analysis. Representative excerpts and methodology are provided for demonstration purposes.
-
+## Note
+This repository is a portfolio summary of a completed academic project. The full source code and dataset are not included.
