@@ -1,4 +1,35 @@
 #------------------------------------------------------------
+# EXAMPLE: inference model selection
+#------------------------------------------------------------
+library(MASS)
+
+log_null <- glm(dep_response ~ 1, data = vets_complete, 
+                family = "binomial"(link = logit))
+
+log_full <- glm(dep_response ~ ., data = vets_complete, 
+                family = "binomial"(link = logit))
+
+# forwards selection
+log_final <- stepAIC(log_null, 
+                     scope = list(lower = log_null, upper = log_full), 
+                     direction = "forward", trace = 1)
+
+log_int_vars <- glm(
+  dep_response ~ gender + age_group + race + BMI_cat + 
+    education_level + marital_status + income_group + 
+    memory_problems + trouble_sleeping_history + 
+    alcohol_ind + marijuana_use + moderate_recreation, 
+  data = vets_complete, 
+  family = "binomial"(link = logit))
+
+# backwards selection
+log_final_int_vars <- stepAIC(log_int_vars, 
+                     scope = formula(log_int_vars), 
+                     direction = "backward", trace = 1)
+summary(log_final_int_vars)
+
+
+#------------------------------------------------------------
 # EXAMPLE: split data into training and testing data, 
 #          set up cross-validation
 #------------------------------------------------------------
