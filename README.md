@@ -29,7 +29,7 @@ Variables related to memory, sleep, and work are strongly influential in the sam
 In addition, memory, sleep, work capability, and recreational activity levels were among the factors associated with depression in the selected analyzed sample.
 
 ![Main Result](results/findings-predictive-model.png)
-
+![Main Result](results/findings-inference-oddsratios.png)
 
 
 ## Note
