@@ -3,7 +3,7 @@
 ## Data Source:
 This analysis uses publicly available data from the National Health and Nutrition Examination Survey (NHANES) between 2005-2018 (13 years). The original NHANES datasets can be accessed through the official CDC/NCHS source. 
 
-## Sample size:
+## Sample Size:
 The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
 
 ## Research Questions:
