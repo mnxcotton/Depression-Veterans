@@ -44,7 +44,7 @@ Memory, sleep, work capability, and recreational activity are significantly asso
 </p>
 
 - Gradient boosting performed best among the models evaluated for predicting depression risk in this sample. On the held-out test set, it achieved an AUC of 0.85, an F1 score of 0.40, and sensitivity of 0.66.
-- Memory-, sleep-, and work-related variables were among the most influential predictors of depression. 
+- Memory-, sleep-, and work-related variables ranked as the most important predictors of depression risk in the model.
 
 ## Note
 This repository is a portfolio summary of a completed academic project. The full source code and dataset are not included. 
