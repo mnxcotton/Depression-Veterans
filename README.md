@@ -33,9 +33,13 @@ Trouble-sleeping history was reported by 71% of participants classified as depre
 <p align="center">
 <img src="results/findings-inference-oddsratios.png" alt="Main Result" width="600">
 </p>
-Key: HS Grad: High School Graduate; Moderate Recreation: physical, sports-related, or fitness activities that increase breathing or heart rate.
 
-> Memory, sleep, work capability, and recreational activity are significantly associated with depression in the analyzed sample. Participants with a history of trouble sleeping had 5.14 higher odds of depression (OR = 5.14, 95% CI [3.820, 6.961]). In addition, participants who engaged in moderate recreational activity had 52% lower odds of depression, consists of  (OR = 0.48, 95% CI [0.347, 0.664]). These associations do not establish causation.
+<small>
+<strong>Key:</strong> HS Grad = High School Graduate.<br>
+<strong>Moderate Recreation</strong> = physical, sports-related, or fitness activities that increase breathing or heart rate.
+</small>
+
+Memory, sleep, work capability, and recreational activity are significantly associated with depression in the analyzed sample. Participants with a history of trouble sleeping had 5.14 higher odds of depression (OR = 5.14, 95% CI [3.820, 6.961]). In addition, participants who engaged in moderate recreational activity had 52% lower odds of depression, consists of  (OR = 0.48, 95% CI [0.347, 0.664]). These associations do not establish causation.
 
 <p align="center">
 <img src="results/findings-predictive-model.png" alt="Main Result" width="600">
