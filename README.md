@@ -23,7 +23,7 @@ The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
 The findings describe associations rather than causal relationships. 
 Results may be affected by self-reported measures, sample size, and the characteristics of the selected NHANES sample.
 
-## Key Findings
+## Findings
 <p align="center">
 <img src="results/findings-descriptive.png" alt="Main Result" width="600">
 </p>
