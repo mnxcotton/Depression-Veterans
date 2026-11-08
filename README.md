@@ -31,7 +31,7 @@ Results may be affected by self-reported measures, sample size, and the characte
 Trouble-sleeping history was reported by 71% of participants classified as depressed (n = 189/267), compared with 27% of those not classified as depressed (n = 932/3,496).
 
 <p align="center">
-<img src="results/findings-inference-oddsratios.png" alt="Main Result" width="600">
+<img src="results/findings-adjoddsratios.png" alt="Main Result" width="600">
 </p>
 
 <strong>Key:</strong> HS Grad = High School Graduate; <strong>Moderate Recreation:</strong> physical, sports-related, or fitness activities that increase breathing or heart rate.
