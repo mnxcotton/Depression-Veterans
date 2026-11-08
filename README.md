@@ -28,13 +28,14 @@ Results may be affected by self-reported measures, sample size, and the characte
 <img src="results/findings-descriptive.png" alt="Main Result" width="600">
 </p>
 
-Trouble-sleeping history was reported by 71% of participants classified as depressed (n = 189/267), compared with 27% of those not classified as depressed (n = 932/3,496). This descriptive pattern is consistent with sleep-related variables being useful predictors in the model, but does not establish causation.
+Trouble-sleeping history was reported by 71% of participants classified as depressed (n = 189/267), compared with 27% of those not classified as depressed (n = 932/3,496).
 
 <p align="center">
 <img src="results/findings-inference-oddsratios.png" alt="Main Result" width="600">
 </p>
 
-Memory, sleep, work capability, and recreational activity were also associated with depression in the analyzed sample. These results describe patterns in this sample and do not establish that these factors cause depression.
+
+Memory, sleep, work capability, and recreational activity were also associated with depression in the analyzed sample. Participants with a history of trouble sleeping had 5.14 higher odds of depression (OR = 5.14, 95% CI [X.XX, X.XX]).  This association does not establish causation.
 
 <p align="center">
 <img src="results/findings-predictive-model.png" alt="Main Result" width="600">
