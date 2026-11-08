@@ -28,8 +28,9 @@ Gradient Boosting (GB) had the best model performance to predict risk of depress
 Variables related to memory, sleep, and work are strongly influential in the sample population. 
 In addition, memory, sleep, work capability, and recreational activity levels were among the factors associated with depression in the selected analyzed sample.
 
-<img src="results/findings-predictive-model.png" alt="Main Result" width="400">
-<img src="results/findings-inference-oddsratios.png" alt="Main Result" width="400">
+<img src="results/findings-inference-oddsratios.png" alt="Main Result" width="600">
+
+<img src="results/findings-predictive-model.png" alt="Main Result" width="600">
 
 ## Note
 This repository is a portfolio summary of a completed academic project. The full source code and dataset are not included. 
