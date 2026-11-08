@@ -24,13 +24,15 @@ The findings describe associations rather than causal relationships.
 Results may be affected by self-reported measures, sample size, and the characteristics of the selected NHANES sample.
 
 ## Key Findings
-Gradient Boosting (GB) had the best model performance to predict risk of depression in the sample. The AUC value was 0.85, the F-1 score was 0.40, and the sensitivity was 0.66. 
-Variables related to memory, sleep, and work are strongly influential in the sample population. 
-In addition, memory, sleep, work capability, and recreational activity levels were among the factors associated with depression in the selected analyzed sample.
+- Gradient boosting performed best among the models evaluated for predicting depression risk in this sample. On the held-out test set, it achieved an AUC of 0.85, an F1 score of 0.40, and sensitivity of 0.66.
+- Memory-, sleep-, and work-related variables were among the most important predictors. 
+- Memory, sleep, work capability, and recreational activity were also associated with depression in the analyzed sample. These results describe patterns in this sample and do not establish that these factors cause depression.
 
+<p align="center">
 <img src="results/findings-inference-oddsratios.png" alt="Main Result" width="600">
 
 <img src="results/findings-predictive-model.png" alt="Main Result" width="600">
+</p>
 
 ## Note
 This repository is a portfolio summary of a completed academic project. The full source code and dataset are not included. 
