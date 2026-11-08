@@ -34,8 +34,7 @@ Trouble-sleeping history was reported by 71% of participants classified as depre
 <img src="results/findings-inference-oddsratios.png" alt="Main Result" width="600">
 </p>
 
-<small><strong>Key:</strong> HS Grad = High School Graduate.</small>
-
+<strong>Key:</strong> HS Grad = High School Graduate; <strong>Moderate Recreation:</strong> physical, sports-related, or fitness activities that increase breathing or heart rate.
 
 Memory, sleep, work capability, and recreational activity are significantly associated with depression in the analyzed sample. Participants with a history of trouble sleeping had 5.14 higher odds of depression (OR = 5.14, 95% CI [3.820, 6.961]). In addition, participants who engaged in moderate recreational activity had 52% lower odds of depression, consists of  (OR = 0.48, 95% CI [0.347, 0.664]). These associations do not establish causation.
 
@@ -43,8 +42,8 @@ Memory, sleep, work capability, and recreational activity are significantly asso
 <img src="results/findings-predictive-model.png" alt="Main Result" width="600">
 </p>
 
-Gradient boosting performed best among the models evaluated for predicting depression risk in this sample. On the held-out test set, it achieved an AUC of 0.85, an F1 score of 0.40, and sensitivity of 0.66.
-Memory-, sleep-, and work-related variables were among the most important predictors. 
+- Gradient boosting performed best among the models evaluated for predicting depression risk in this sample. On the held-out test set, it achieved an AUC of 0.85, an F1 score of 0.40, and sensitivity of 0.66.
+- Memory-, sleep-, and work-related variables were among the most influential predictors of depression. 
 
 ## Note
 This repository is a portfolio summary of a completed academic project. The full source code and dataset are not included. 
