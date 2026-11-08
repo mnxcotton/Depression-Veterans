@@ -40,7 +40,7 @@ Memory, sleep, work capability, and recreational activity are significantly asso
 
 <p align="center">
 <img src="results/findings-roc.png" alt="Main Result" width="500">
-<img src="results/findings-predictive-model.png" alt="Main Result" width="500">
+<img src="results/findings-predictive-model-influence.png" alt="Main Result" width="500">
 </p>
 
 - Gradient boosting performed best among the models evaluated for predicting depression risk in this sample. On the held-out test set, it achieved an AUC of 0.85, an F1 score of 0.40, and sensitivity of 0.66.
