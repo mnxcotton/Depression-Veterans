@@ -24,19 +24,22 @@ The findings describe associations rather than causal relationships.
 Results may be affected by self-reported measures, sample size, and the characteristics of the selected NHANES sample.
 
 ## Key Findings
-
 <p align="center">
+
+<img src="results/findings-descriptive.png" alt="Main Result" width="600">
+
+Trouble-sleeping history was reported by 71% of participants classified as depressed (n = 189/267), compared with 27% of those not classified as depressed (n = 932/3,496). This descriptive pattern is consistent with sleep-related variables being useful predictors in the model, but does not establish causation.
+
 <img src="results/findings-inference-oddsratios.png" alt="Main Result" width="600">
-</p>
 
-- Memory, sleep, work capability, and recreational activity were also associated with depression in the analyzed sample. These results describe patterns in this sample and do not establish that these factors cause depression.
 
-<p align="center">
+Memory, sleep, work capability, and recreational activity were also associated with depression in the analyzed sample. These results describe patterns in this sample and do not establish that these factors cause depression.
+
 <img src="results/findings-predictive-model.png" alt="Main Result" width="600">
-</p>
 
-- Gradient boosting performed best among the models evaluated for predicting depression risk in this sample. On the held-out test set, it achieved an AUC of 0.85, an F1 score of 0.40, and sensitivity of 0.66.
-- Memory-, sleep-, and work-related variables were among the most important predictors. 
+Gradient boosting performed best among the models evaluated for predicting depression risk in this sample. On the held-out test set, it achieved an AUC of 0.85, an F1 score of 0.40, and sensitivity of 0.66.
+Memory-, sleep-, and work-related variables were among the most important predictors. 
+</p>
 
 ## Note
 This repository is a portfolio summary of a completed academic project. The full source code and dataset are not included. 
