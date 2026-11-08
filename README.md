@@ -35,7 +35,7 @@ Trouble-sleeping history was reported by 71% of participants classified as depre
 </p>
 
 
-Memory, sleep, work capability, and recreational activity were also associated with depression in the analyzed sample. Participants with a history of trouble sleeping had 5.14 higher odds of depression (OR = 5.14, 95% CI [X.XX, X.XX]).  This association does not establish causation.
+Memory, sleep, work capability, and recreational activity were also associated with depression in the analyzed sample. Participants with a history of trouble sleeping had 5.14 higher odds of depression (OR = 5.14, 95% CI [3.82, 6.96]).  This association does not establish causation.
 
 <p align="center">
 <img src="results/findings-predictive-model.png" alt="Main Result" width="600">
