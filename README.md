@@ -3,12 +3,15 @@
 ## Data Source:
 This analysis uses publicly available data from the National Health and Nutrition Examination Survey (NHANES) between 2005-2018 (14 years). The original NHANES datasets can be accessed through the official CDC/NCHS source. 
 
-## Sample Size:
-The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
+## Dataset:
+
+**Sample Size:** The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
 
 **Response variable:** Depression status, coded as a binary variable:
 - `0` = Not depressed (reference category)
 - `1` = Depressed
+
+**Features:** 120 variables total.
 
 ## Research Objectives:
 1. **Examine factors associated with depression among U.S. veterans.**  
