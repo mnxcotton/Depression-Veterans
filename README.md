@@ -7,13 +7,13 @@ This analysis uses publicly available data from the National Health and Nutritio
 The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
 
 ## Research Questions:
-- Are there biological, socioeconomic, or lifestyle factors strongly associated with depression in U.S. veterans?
---Variables of interest for research objective: 
----biological: sex, age, BMI
----socioeconomic: education, marital status, income, race
----lifestyle: memory problems, sleeping history, alcohol status, marijuana usage, recreational activity
-- Which factors are associated with depression for U.S. veterans?
-- Which machine-learning (ML) algorithms can best predict depression in U.S. veterans?
+1. **Examine factors associated with depression among U.S. veterans.**  
+   Variables of interest include:
+   - **Biological:** sex, age, and BMI
+   - **Socioeconomic:** education, marital status, income, and race
+   - **Lifestyle and health:** memory problems, sleep history, alcohol use, marijuana use, and recreational activity
+
+2. **Compare machine-learning algorithms** to identify which best predict depression among U.S. veterans.
 
 ## Methods
 - Data cleaning and feature preparation in R
