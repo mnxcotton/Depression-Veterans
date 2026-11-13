@@ -1,10 +1,7 @@
 # Predicting Risk of Depression in U.S. Veterans
 
-## Data Source:
-This analysis uses publicly available data from the National Health and Nutrition Examination Survey (NHANES) between 2005-2018 (14 years). The original NHANES datasets can be accessed through the official CDC/NCHS source. 
-
-## Dataset:
-The analysis used a provided dataset containing 3,763 U.S. veterans (n = 3,763) and 120 variables.
+## Data Source and Dataset
+The analysis dataset was provided as a prepared subset of publicly available NHANES data from 2005–2018. It contains 3,763 U.S. veterans (n = 3,763) and 120 variables. The original NHANES data are available from the CDC/NCHS.
 
 ## Outcome Definition
 The provided dataset included a pre-coded binary depression label:
