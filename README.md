@@ -1,14 +1,14 @@
 # Predicting Risk of Depression in U.S. Veterans
 
 ## Data Source:
-This analysis uses publicly available data from the National Health and Nutrition Examination Survey (NHANES) between 2005-2018 (13 years). The original NHANES datasets can be accessed through the official CDC/NCHS source. 
+This analysis uses publicly available data from the National Health and Nutrition Examination Survey (NHANES) between 2005-2018 (14 years). The original NHANES datasets can be accessed through the official CDC/NCHS source. 
 
 ## Sample Size:
 The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
 
 ## Research Questions:
 - Are there biological, socioeconomic, or lifestyle factors strongly associated with depression in US veterans?
-- What are some risk factors of depression for U.S. veterans?
+- Which factors are associated with depression for U.S. veterans?
 - Which machine-learning (ML) algorithms can best predict depression in U.S. veterans?
 
 ## Methods
