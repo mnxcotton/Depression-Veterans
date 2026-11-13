@@ -15,8 +15,9 @@ The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
 
 2. **Compare machine-learning algorithms** to identify which best predict depression among U.S. veterans.
 
-## Response Outcome Definition:
-Response Variable: depression as a binary categorical variable (0 = "Not Depressed" as reference group, 1 = "Depressed")
+**Response variable:** Depression status, coded as a binary variable:
+- `0` = Not depressed (reference category)
+- `1` = Depressed
 
 ## Methods
 - Data cleaning and feature preparation in R
