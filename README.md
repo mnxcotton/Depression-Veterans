@@ -4,14 +4,14 @@
 This analysis uses publicly available data from the National Health and Nutrition Examination Survey (NHANES) between 2005-2018 (14 years). The original NHANES datasets can be accessed through the official CDC/NCHS source. 
 
 ## Dataset:
+The analysis used a provided dataset containing 3,763 U.S. veterans (n = 3,763) and 120 variables.
 
-**Sample Size:** The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
-
-**Response variable:** Depression status, coded as a binary variable:
-- `0` = Not depressed (reference category)
+## Outcome Definition
+The provided dataset included a pre-coded binary depression label:
+- `0` = Not Depressed (reference category)
 - `1` = Depressed
 
-**Features:** 120 variables total.
+The codebook did not define the criteria used to assign these labels. Therefore, this project predicts the dataset-provided classification, not a clinical diagnosis.
 
 ## Research Objectives:
 1. **Examine factors associated with depression among U.S. veterans.**  
@@ -23,6 +23,9 @@ This analysis uses publicly available data from the National Health and Nutritio
 2. **Compare machine-learning algorithms** to identify which best predict depression among U.S. veterans.
 
 ## Methods
+
+
+
 - Data cleaning and feature preparation in R
 - Multivariate analysis
 - Linear and logistic regression
