@@ -6,7 +6,7 @@ This analysis uses publicly available data from the National Health and Nutritio
 ## Sample Size:
 The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
 
-## Research Questions:
+## Research Objectives:
 1. **Examine factors associated with depression among U.S. veterans.**  
    Variables of interest include:
    - **Biological:** sex, age, and BMI
