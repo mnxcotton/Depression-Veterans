@@ -6,6 +6,10 @@ This analysis uses publicly available data from the National Health and Nutritio
 ## Sample Size:
 The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
 
+**Response variable:** Depression status, coded as a binary variable:
+- `0` = Not depressed (reference category)
+- `1` = Depressed
+
 ## Research Objectives:
 1. **Examine factors associated with depression among U.S. veterans.**  
    Variables of interest include:
@@ -14,10 +18,6 @@ The sample population used for analysis was 3,763 U.S. veterans (n = 3763).
    - **Lifestyle and health:** memory problems, sleep history, alcohol use, marijuana use, and recreational activity
 
 2. **Compare machine-learning algorithms** to identify which best predict depression among U.S. veterans.
-
-**Response variable:** Depression status, coded as a binary variable:
-- `0` = Not depressed (reference category)
-- `1` = Depressed
 
 ## Methods
 - Data cleaning and feature preparation in R
