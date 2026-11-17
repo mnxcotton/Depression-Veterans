@@ -19,6 +19,7 @@ The codebook did not define the criteria used to assign these labels. Therefore,
 
 ## Methods
 - Data cleaning and feature preparation in R
+- Bivariate Analysis
 - Multivariate analysis
 - Linear and logistic regression
 - Tree-based modeling
