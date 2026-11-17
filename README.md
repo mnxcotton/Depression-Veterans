@@ -32,7 +32,7 @@ Results may be affected by self-reported measures, sample size, and the characte
 
 ## Findings
 <p align="center">
-<img src="results/findings-descriptive--sleephist.png" alt="Exploratory Analysis" width="450"> <img src="results/findings-descriptive--memprobs.png" alt="Exploratory Analysis" width="450">
+<img src="results/findings-descriptive--sleephist.png" alt="Exploratory Analysis" width="425"> <img src="results/findings-descriptive--memprobs.png" alt="Exploratory Analysis" width="425">
 </p>
 
 - Trouble-sleeping history was reported by 71% of participants classified as depressed (n = 189/267), compared with 27% of those not classified as depressed (n = 932/3,496).
