@@ -34,7 +34,8 @@ Results may be affected by self-reported measures, sample size, and the characte
 <img src="results/findings-descriptive--sleephist.png" alt="Exploratory Analysis" width="450"> <img src="results/findings-descriptive--memprobs.png" alt="Exploratory Analysis" width="450">
 </p>
 
-Trouble-sleeping history was reported by 71% of participants classified as depressed (n = 189/267), compared with 27% of those not classified as depressed (n = 932/3,496).
+- Trouble-sleeping history was reported by 71% of participants classified as depressed (n = 189/267), compared with 27% of those not classified as depressed (n = 932/3,496).
+- Memory problems was reported by 43% of participants classified as depressed (n = 115/267), compared with 8% of those not classified as depressed (n = 277/3,496).
 
 <p align="center">
 <img src="results/findings-adjoddsratios.png" alt="Adjusted odds ratios for depression predictors" width="600">
